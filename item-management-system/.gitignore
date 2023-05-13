@@ -1,0 +1,35 @@
+# General --------------------
+
+.env
+.env.*
+.DS_Store
+.metals/
+
+# Controller-Scala --------------------
+
+controller-scala/.metals/
+controller-scala/dumps/
+controller-scala/project/
+controller-scala/project/metals.sbt
+controller-scala/project/target/
+controller-scala/project/project/
+controller-scala/project/.bloop/
+controller-scala/public/
+controller-scala/target/
+
+# Admin-React --------------------
+
+admin-react/node_modules/
+admin-react/.pnp
+admin-react/.pnp.js
+admin-react/coverage/
+admin-react/.npm/
+admin-react/static/bundle.js
+admin-react/build/
+admin-react/npm-debug.log
+admin-react/.idea
+admin-react/*.iml
+admin-react/npm-debug.log*
+admin-react/yarn-debug.log*
+admin-react/yarn-error.log*
+admin-react/.metals/

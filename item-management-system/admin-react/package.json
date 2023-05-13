@@ -1,0 +1,88 @@
+{
+    "name": "admin-react",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "craco start",
+        "build": "craco build",
+        "analyse": "source-map-explorer 'build/static/js/*.js'",
+        "cypress": "cypress open"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "dependencies": {
+        "@atlaskit/breadcrumbs": "^10.1.0",
+        "@atlaskit/button": "^15.1.4",
+        "@atlaskit/checkbox": "^12.0.0",
+        "@atlaskit/css-reset": "^6.0.5",
+        "@atlaskit/datetime-picker": "^10.3.0",
+        "@atlaskit/dropdown-menu": "^10.1.2",
+        "@atlaskit/dynamic-table": "^14.2.0",
+        "@atlaskit/icon": "^21.3.0",
+        "@atlaskit/inline-edit": "^12.0.5",
+        "@atlaskit/modal-dialog": "^11.2.9",
+        "@atlaskit/page": "^12.0.5",
+        "@atlaskit/page-header": "^10.0.7",
+        "@atlaskit/pagination": "^13.0.10",
+        "@atlaskit/select": "^13.2.0",
+        "@atlaskit/side-navigation": "^0.8.1",
+        "@atlaskit/spinner": "^15.0.7",
+        "@atlaskit/textfield": "^5.0.1",
+        "@atlaskit/theme": "^11.0.2",
+        "@atlaskit/tooltip": "^17.2.0",
+        "@babel/plugin-proposal-optional-chaining": "^7.13.8",
+        "@baristalabs/craco-raw-loader": "^1.2.0",
+        "@craco/craco": "^6.1.1",
+        "axios": "^0.21.1",
+        "babel-plugin-ramda": "^2.0.0",
+        "dateformat": "^4.5.1",
+        "deep-object-diff": "^1.1.0",
+        "immer": "^8.0.1",
+        "javascript-time-ago": "^2.3.4",
+        "json-schema-to-yup": "^1.8.8",
+        "query-string": "^5.1.1",
+        "ramda": "^0.27.1",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-flexbox-grid": "^2.1.2",
+        "react-helmet": "^6.1.0",
+        "react-hook-form": "^7.0.7",
+        "react-markdown": "^5.0.3",
+        "react-mde": "^11.1.0",
+        "react-query": "^3.21.1",
+        "react-router": "^5.2.0",
+        "react-router-dom": "^5.2.0",
+        "react-router-ga": "^1.2.3",
+        "react-scripts": "4.0.3",
+        "react-simple-image-viewer": "0.0.8",
+        "react-toastify": "^7.0.3",
+        "schema-to-yup": "^1.10.0",
+        "simplur": "^3.0.1",
+        "styled-components": "^5.2.3",
+        "title-case": "^3.0.3",
+        "use-immer": "^0.4.2",
+        "use-query-params": "^1.2.0",
+        "use-throttled-effect": "0.0.7"
+    },
+    "devDependencies": {
+        "cypress": "^7.2.0",
+        "dotenv": "^8.2.0",
+        "find-config": "^1.0.0",
+        "source-map-explorer": "^2.5.2"
+    }
+}

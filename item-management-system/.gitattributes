@@ -1,0 +1,6 @@
+Makefile linguist-detectable=true
+*.csv linguist-detectable=true
+*.json linguist-detectable=true
+*.yaml linguist-detectable=true
+*.sql linguist-detectable=true
+*.xml linguist-detectable=true
